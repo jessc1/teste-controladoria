@@ -1,16 +1,10 @@
-from pathlib import Path
-
-
+from model import Transaction
+    
 def main() -> None:
-    base_dir = Path(__file__).resolve().parent
-    data_dir = base_dir / "data"
-    out_dir = base_dir / "out"
-
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    # Implemente sua lógica aqui
-    pass
-
+    processor = Transaction()
+    processor.process()
+    if not processor:
+        print("Error during processing") 
 
 if __name__ == "__main__":
     main()

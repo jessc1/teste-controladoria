@@ -1,0 +1,2 @@
+trade_id,account_id,client_document,date,ticker,side,quantity,broker_fee,tax,currency,invalid_reason,source_file
+T1000058,A0148,67.663.455/1695-88,07/02/2026,BBAS3, BUY ," 250,00 ",1.5,"1,10",BRL,invalid_date,transactions_20260210.csv

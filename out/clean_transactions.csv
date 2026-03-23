@@ -1,0 +1,1 @@
+trade_id,account_id,client_document,document_clean,document_type,date,ticker,side,quantity,price,broker_fee,tax,gross_amount,total_costs,net_amount,currency,source_file
