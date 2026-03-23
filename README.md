@@ -1,2 +1,2 @@
-para rodar a aplicação
+- para rodar a aplicação :
 uv run main.py
